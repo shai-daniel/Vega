@@ -10,7 +10,8 @@ namespace vega.Controllers
     public class HomeController : Controller
     {
         public IActionResult Index()
-        {            
+        {           
+            throw new Exception() ;
             return View();
         }
 
