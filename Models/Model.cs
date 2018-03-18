@@ -8,6 +8,7 @@ namespace vega.Models
 
         public Make Make { get; set; }
 
+        // test
         public int MakeId { get; set; }
     }
 }
